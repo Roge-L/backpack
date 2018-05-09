@@ -1,3 +1,7 @@
+// Project Name
+// Roger Lam
+// Month Day, Year
+
 function setup() {
   // put setup code here
 }
