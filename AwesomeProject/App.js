@@ -6,6 +6,7 @@ export default class awesomeproject extends Component {
     return (
       <View>
         <Text>Hello World!</Text>
+        <Text>Checking if this works</Text>
       </View>
     )
   }
