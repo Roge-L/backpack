@@ -1,11 +1,15 @@
 import React, {Component} from "react";
-import {AppRegistry, Text, View} from "react-native";
+import {AppRegistry, Text, View, Image} from "react-native";
+
+import Pug from "./components/Pug.js";
+import Welcome from "./components/Welcome.js";
 
 export default class AwesomeProject extends Component {
   render() {
     return (
       <View>
-        <Text>Hello World!</Text>
+        <Welcome message="This is my message Prop given to my Welcome component"/>
+        <Pug />
       </View>
     )
   }
