@@ -7,7 +7,7 @@ export default class Pug extends Component {
       uri: 'https://wallpapercave.com/wp/87HMOXr.jpg'
     };
     return (
-      <Image source={pug} style={{width: 420, height: 400}}/>
+      <Image source={pug} style={{width: 412, height: 683}}/>
     )
   }
 }
