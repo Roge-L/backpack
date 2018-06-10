@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AppRegistry, Text, TextInput, View } from 'react-native';
+import { AppRegistry, Text, TextInput, View, StyleSheet} from 'react-native';
 
 export default class Username extends Component {
   render() {
@@ -13,5 +13,11 @@ export default class Username extends Component {
     );
   }
 }
+
+const style = StyleSheet.create({
+  container: {
+    margin: 10
+  }
+})
 
 AppRegistry.registerComponent("Username", () => Username);

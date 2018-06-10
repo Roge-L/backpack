@@ -12,6 +12,7 @@ export default class Password extends Component {
         <TextInput
           style={{height: 40}}
           placeholder="Password"
+          secureTextEntry={true}
         />
       </View>
     );
