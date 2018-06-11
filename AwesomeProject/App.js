@@ -1,14 +1,13 @@
 import React, {Component} from "react";
 import {AppRegistry, Text, View, StyleSheet, Image} from "react-native";
-import {StackNavigator} from "react-navigation";
+import {createStackNavigator} from "react-navigation";
 
 import Username from "./components/Username.js";
 import Password from "./components/Password.js";
 
 import LoginScreen from "./screens/LoginScreen.js";
-import HomeScreen from "./screens/HomeScreen.js";
 
-export default class AwesomeProject extends Component {
+class AwesomeProject extends Component {
   render() {
     return (
       <AppNavigator/>
@@ -28,9 +27,10 @@ export default class AwesomeProject extends Component {
   }
 }
 
-const AppNavigator = StackNavigator({
-  Login: { screen: LoginScreen },
-  Home: { screen: HomeScreen }
+const AppNavigator = createStackNavigator({
+  Login: {
+    screen: LoginScreen
+  }
 });
 
 const styles=StyleSheet.create({
