@@ -4,7 +4,7 @@ import { AppRegistry, Text, TextInput, View, StyleSheet} from 'react-native';
 export default class Username extends Component {
   render() {
     return (
-      <View style={{margin: 10}}>
+      <View style={styles.container}>
         <TextInput
           style={{height: 40}}
           placeholder="Username"
@@ -14,9 +14,13 @@ export default class Username extends Component {
   }
 }
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
-    margin: 10
+    flex: 0.5,
+    margin: 10,
+    backgroundColor: "lightblue",
+    padding: 10,
+    justifyContent: "center"
   }
 })
 

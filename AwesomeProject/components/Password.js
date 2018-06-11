@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import { AppRegistry, Text, TextInput, View } from 'react-native';
+import { AppRegistry, Text, TextInput, View, StyleSheet} from 'react-native';
 
 export default class Password extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
-      <View style={{margin: 10}}>
+      <View style={styles.container}>
         <TextInput
           style={{height: 40}}
           placeholder="Password"
@@ -18,5 +14,15 @@ export default class Password extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 0.5,
+    margin: 10,
+    backgroundColor: "lightblue",
+    padding: 10,
+    justifyContent: "center"
+  }
+})
 
 AppRegistry.registerComponent("Password", () => Password);
