@@ -24,7 +24,7 @@ export default class LoginScreen extends Component {
         <Password/>
 
         <View style={styles.buttonContainer}>
-        <Button title="Log In" onPress={() => this.props.navigation.navigate("Home")}/>
+        <Button style={{styles.button}} title="Log In" onPress={() => this.props.navigation.navigate("Home")}/>
         <Button title="Sign Up" onPress={() => this.props.navigation.navigate("Signup")}/>
         </View>
 
@@ -59,7 +59,10 @@ const styles=StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-around"
-  }
+  },
+  // button: {
+  //   padding: 30
+  // }
 })
 
 AppRegistry.registerComponent("LoginScreen", () => LoginScreen)

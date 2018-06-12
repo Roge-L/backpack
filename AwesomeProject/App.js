@@ -23,26 +23,15 @@ const AppNavigator = createStackNavigator({
   Signup: SignupScreen
 });
 
-// const styles=StyleSheet.create({
-//   iconContainer: {
-//     flexDirection: "column",
-//     alignItems: "center",
-//     justifyContent: "flex-start"
-//   },
-//   icon: {
-//     width: 200,
-//     height: 200
-//   },
-//   title: {
-//     fontSize: 40,
-//     marginTop: 20,
-//     color: "lightblue"
-//   },
-//   subtitle: {
-//     marginTop: 8,
-//     fontSize: 14,
-//     color: "lightblue"
-//   }
-// })
+// Functionalities
+
+// School Schedule - Events, Due Dates, Test Dates
+// Time Management System
+// Priorities List
+// Grades
+// Grade Calculator
+// Teacher Comments
+// File Sharing
+// Scanning System
 
 AppRegistry.registerComponent("AwesomeProject", () => AwesomeProject);
