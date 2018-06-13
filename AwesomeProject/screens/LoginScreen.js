@@ -16,7 +16,7 @@ export default class LoginScreen extends Component {
         <View style={{flex: 0.75}}/>
         <View style={styles.iconContainer}>
           <Image source={require("AwesomeProject/images/backpack.png")} style={styles.icon}/>
-          <Text style={styles.title}>Backpack</Text>
+          <Text style={styles.title}>Roger Was Here</Text>
           <Text style={styles.subtitle}>The only app you need for school.</Text>
         </View>
         <View style={{flex: 0.45}}/>
