@@ -24,7 +24,6 @@ const AppNavigator = createStackNavigator({
 });
 
 // Functionalities
-
 // School Schedule - Events, Due Dates, Test Dates
 // Time Management System
 // Priorities List
@@ -34,4 +33,9 @@ const AppNavigator = createStackNavigator({
 // File Sharing
 // Scanning System
 
+// Priorities
+// 1. Basic UI
+// 2. Grades
+// 3. Grades Calculator
+// 4. Priorities List or Time Management System
 AppRegistry.registerComponent("AwesomeProject", () => AwesomeProject);
